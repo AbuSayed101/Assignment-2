@@ -57,3 +57,607 @@ body{
 .merun-color{
     color:#E95A08 ;
 }
+.banner-description{
+    color: #000000;
+    font-weight:400 ;
+    font-size: 22px;
+}
+/* Main content */
+.main-class{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.plant-content{
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    align-items: center;
+    padding: 0 100px;
+    
+}
+.plants-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.our{
+    color: #E95A08;
+}
+.plants-description{
+    color: #00000080;
+    font-weight: 400;
+    font-size: 22px;
+}
+/* plant card */
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 13px 10px;
+    margin:0 auto;
+    padding: 0 auto;
+}
+.plants-card{
+    width: 270px;
+    margin-top: 20px;
+}
+.plants-card-title{
+    font-weight: 500;
+    font-size: 22px;
+    color:#111111 ;
+    align-items: center;
+    text-align: center;
+}
+.plants-dollar{
+    font-weight: bold;
+    font-size: 22px;
+    color: #111111;
+    align-items: center;
+    text-align: center;
+
+}
+.plants-button{
+    background-color: #E95A08;
+    color: white;
+    width: 270px;
+    height: 50px;
+    border: none;
+}
+/* flower section style */
+.flower{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 70px;
+    margin-top: 50px;
+   
+  
+}
+.flower{
+    position: relative;
+}
+.flower .badge{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    width: 100%;
+    max-width: 180px;
+    height: 180px;
+}
+.flower-image,.flower-content{
+    padding: 100px 0;
+    
+}
+.flower-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.flower-content{
+    width: 80%;
+    
+}
+.flower-title{
+    font-weight: bold;
+    font-size: 55px;
+    color: #000000;
+}
+
+.flower-card{
+    display: flex;
+}
+.flower-description{
+    font-weight: 400;
+    font-size: 22px;
+    color: #00000080;
+    padding: 10px 0;
+    text-align: left;
+}
+.dot{
+    font-weight: 600;
+    font-size: 42px;
+      color: #00000080;
+}
+
+.latest-content{
+   width: 100%;
+    max-width: 760px;
+    text-align: center;
+    align-items: center;
+    padding: 0 100px;
+    padding-left: 200px;
+    margin-bottom: 20px;
+}
+.latest-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.latests{
+color: #E95A08;
+}
+.latest-description{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+
+.shop-now {
+  display: grid;
+  grid-template-columns: 1fr 2fr;  
+  grid-template-rows: auto auto;  
+  gap: 20px; 
+  height: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 20px;
+  
+   
+  
+  
+}
+
+.bloom-plant,
+.ana-plant,
+.zabo-plant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+   
+}
+
+
+.bloom-plant {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.ana-plant {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.zabo-plant {
+  grid-column: 2 ; 
+  grid-row: 1 / span 2;  
+}
+
+.bloom-title,.ana-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+
+}
+.ana,.bloom{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+.zabo{
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+}
+.zabo-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.bloom-plant{
+background-image: url('./assets/deal-bloom.png');
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+
+
+
+
+}
+.ana-plant{
+background-image: url('./assets/deal-ana.png');
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+
+
+}
+.zabo-plant{
+background-image: url('./assets/deal-zabo.png');
+background-size: cover;
+ background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+
+
+
+}
+/* join section */
+ .join {
+    width: 100%;
+    padding: 0; 
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+
+   
+.join {
+  width: 100%;
+  margin: 0;
+}
+
+.join-content {
+  width: 100%;
+  min-height: 200px;
+  background-image: url('./assets/news-letter-bg.png');
+  background-size: 160% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 10px;
+  text-align: center;
+  align-items: center;
+ 
+}
+.join-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 80px;
+}
+
+.join-input{
+    width: 500px;
+    height: 35px;
+    padding-left: 10px;
+    position: relative;
+    
+}
+.join-button{
+    position: absolute;
+    left:890px;
+    width: 90px;
+    height: 40px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+}
+
+
+
+/* footer style */
+footer{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;  
+}
+.footer-style{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 70px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  
+
+
+}
+
+.footer-description{
+    font-weight: 400;
+    font-size: 22px;
+    color: #00000080;
+}
+
+.footer-nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.footer-nav-item{
+  text-decoration: none;
+ color: #00000080;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 35px;
+}
+@media screen and (max-width:576px) {
+   .home,
+   .shop,
+   .about{
+    display: none;
+   }
+   .cart{
+    display: inline;
+   }
+
+   .header-class{
+    padding: 0 30px;
+    margin-top: 50px;
+    align-items: center;
+    
+    
+   }
+   .banner{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+     padding: 0 30px;
+    margin-top: 50px;
+   }
+
+    .banner-img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+   
+   
+
+  }
+   .banner-img{
+    order: 1;
+   }
+   
+  .banner-content {
+    order: 2; 
+  }
+
+    .banner-title {
+    font-size: 24px;
+  }
+  .banner-description {
+    font-size: 14px;
+    
+  }
+
+  .plants-content{
+    width: 100%;
+    max-width: 280px;
+    padding: 0 48px;
+    
+    
+    
+}
+  .plants-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+.plants-description{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* card er media */
+
+
+  
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+    width: 85%;
+    max-width: 412px;
+    padding-left: 30px;
+    gap: 10;
+    padding-right: 70px;
+   
+     
+    
+  }
+
+
+   
+  .plants-card {
+    width: 100%;
+    max-width: 180px;
+    text-align: center;
+    gap: 0;
+    
+   
+    
+  }
+  .plants-card img{
+    width: 100%;
+    max-width: 180px;
+    gap: 0;
+  }
+
+
+  .plants-img{
+    width: 30px;
+  }
+
+
+  .plants-button {
+    width: 100%;
+    max-width: 100%;
+  }
+
+/* flower card */
+.flower{
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+.flower-image img{
+    width: 100%;
+    max-width: 340px;
+    
+}
+
+.badge{
+        display: none;
+}
+
+  .latest-title,
+.flower-title{
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+.latest-description,
+.flower-description{
+font-weight: 400;
+font-size: 14px;
+}
+
+.flower-image,.flower-content{
+    padding:10px 30px;
+}
+
+
+.latest-content{
+   width: 100%;
+    max-width: 300px;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+
+
+ 
+  .shop-now {
+    width: 70%;
+    height: 100%;
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;   
+    grid-template-rows: auto auto auto;  
+    gap: 10px;
+    padding-left: 30px;
+  }
+
+  .bloom-plant {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .ana-plant {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .zabo-plant {
+    grid-column: 1;
+    grid-row: 3;
+   
+  }
+
+.zabo{
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+.zabo-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.join-content {
+  width: 100%;
+  min-height: 100px;
+  align-items: start;
+  text-align: start;
+  margin-top: 20px;
+ padding-left: 50px;
+ 
+}
+.join-title{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.join-input{
+    width: 200px;
+    height: 35px;
+    padding-left: 10px;
+    position: relative;
+    
+}
+.join-button{
+    position: absolute;
+    left:230px;
+    width: 90px;
+    height: 40px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+}
+
+.join {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+footer{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto; 
+   
+}
+.footer-style{
+ 
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+  
+ padding-left: 30px;
+  
+
+
+}
+
+.footer-description{
+    font-weight: 400;
+    font-size: 14px;
+   
+}
+
+.footer-nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.footer-icon{
+   
+    gap: 10px;
+}
+}
