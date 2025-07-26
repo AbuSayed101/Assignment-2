@@ -268,21 +268,16 @@ color: #E95A08;
     font-weight: bold;
     font-size: 40px;
     color: white;
-    
 }
 
 .bloom-plant{
-background-image: url('./assets/deal-bloom.png');
+background-image: url('../assets/deal-bloom.png');
 background-size: cover;
 background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: darken;
-
-
-
-
 }
 .ana-plant{
-background-image: url('./assets/deal-ana.png');
+background-image: url('../assets/deal-ana.png');
 background-size: cover;
 background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: darken;
@@ -290,7 +285,7 @@ background-color: rgba(0, 0, 0, 0.4);
 
 }
 .zabo-plant{
-background-image: url('./assets/deal-zabo.png');
+background-image: url('../assets/deal-zabo.png');
 background-size: cover;
  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: darken;
